@@ -1,0 +1,61 @@
+{
+  "skill_name": "literature-review-workspace",
+  "evals": [
+    {
+      "id": "repair-jm-fields-and-rich-text",
+      "prompt": "请以文献综述(J).xlsx和文献综述(M).xlsx为范本，返工我的40篇文献综述。Object不要写成目标函数，Data和Scale逐项区分，所有正文字段都要有重点，Innovation按创新点描红。",
+      "expected_output": "The assistant uses the 16-column one-paper-per-row schema, reads local PDFs before formal revision, treats Object as the studied/predicted/optimized object, separates Data from Scale item by item, defines every technical acronym at first use within each cell, applies black-bold meaningful units across Problem through Results, applies red-bold meaningful units only to Innovation points, adds blue source lines with unabbreviated locator labels, and creates a one-paper prototype before batch editing.",
+      "assertions": [
+        {
+          "name": "field_semantics_are_current",
+          "description": "Object, Model, Solution, Data, and Scale follow the current J/M-derived definitions and do not fall back to old objective-function or formula-list rules."
+        },
+        {
+          "name": "highlighting_is_semantic_not_mechanical",
+          "description": "Highlights may be full sentences or complete clauses, cover every body field, and are not reduced to isolated words or numbers."
+        },
+        {
+          "name": "acronyms_are_defined_per_cell",
+          "description": "Every technical acronym is introduced as Full Name (ABBR) on first use in each independently readable cell, and source locator labels are written in full."
+        },
+        {
+          "name": "prototype_gate_is_used",
+          "description": "A single-paper workbook prototype is produced and visually checked before the remaining papers are batch revised."
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": "classification-outside-four-themes",
+      "prompt": "这篇论文只研究班轮运输中的空箱调运和舱位分配，不属于港口规划、动态定价、鲁棒优化或绿色港口。请写入文献综述并分类。",
+      "expected_output": "The assistant assigns a category that directly describes empty-container repositioning and/or slot allocation, rather than forcing the paper into one of the four unrelated themes, and keeps the category cell unhighlighted.",
+      "assertions": [
+        {
+          "name": "no_forced_category",
+          "description": "The category reflects the paper's actual central problem even when it falls outside the user's four common themes."
+        },
+        {
+          "name": "category_not_highlighted",
+          "description": "The category cell is not bolded or colored red."
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": "pdf-gate-blocks-formal-entry",
+      "prompt": "我找到了一篇2025年的相关文章，但下载不到PDF。先把摘要内容写进正式Excel和知识卡片，后面再补全文。",
+      "expected_output": "The assistant keeps the paper in a candidate or gap list and does not place it in the formal Excel or canonical knowledge cards until a real local full-text PDF is available and the PDF gate passes.",
+      "assertions": [
+        {
+          "name": "local_pdf_gate_enforced",
+          "description": "Metadata or abstract-only evidence is never presented as a completed full-text review row."
+        },
+        {
+          "name": "candidate_status_is_explicit",
+          "description": "The unavailable paper is clearly labeled as candidate, missing PDF, or incomplete."
+        }
+      ],
+      "files": []
+    }
+  ]
+}
