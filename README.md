@@ -10,12 +10,9 @@
 
 给 AI 助手一套有边界、有依据、可检查的文献综述工作流。
 
-[![Validation](https://github.com/scoff426-alt/literature-review-workspace/actions/workflows/validate.yml/badge.svg)](https://github.com/scoff426-alt/literature-review-workspace/actions/workflows/validate.yml)
-![Python](https://img.shields.io/badge/Python-3.10%2B-3157D5?style=flat-square)
-![Format](https://img.shields.io/badge/Agent_Skill-SKILL.md-0D766E?style=flat-square)
-[![Stars](https://img.shields.io/github/stars/scoff426-alt/literature-review-workspace?style=flat-square&color=C69335)](https://github.com/scoff426-alt/literature-review-workspace/stargazers)
+[![Validation](https://github.com/scoff426-alt/literature-review-workspace/actions/workflows/validate.yml/badge.svg)](https://github.com/scoff426-alt/literature-review-workspace/actions/workflows/validate.yml) ![Python](https://img.shields.io/badge/Python-3.10%2B-3157D5?style=flat-square) ![Format](https://img.shields.io/badge/Agent_Skill-SKILL.md-0D766E?style=flat-square) [![Stars](https://img.shields.io/github/stars/scoff426-alt/literature-review-workspace?style=flat-square&color=C69335)](https://github.com/scoff426-alt/literature-review-workspace/stargazers)
 
-[快速开始](#quick-start) · [看看产出](#outputs) · [质量边界](#quality) · [完整指南](docs/usage.md) · [English](README.en.md)
+[下载 Skill](https://github.com/scoff426-alt/literature-review-workspace/archive/refs/heads/main.zip) · [快速开始](#quick-start) · [看看产出](#outputs) · [质量边界](#quality) · [English](README.en.md)
 
 </div>
 

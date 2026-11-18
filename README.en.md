@@ -8,10 +8,9 @@
 
 **Local full-text PDFs → a 16-column Excel review matrix → Chinese knowledge cards → source locations.**
 
-[![Validation](https://github.com/scoff426-alt/literature-review-workspace/actions/workflows/validate.yml/badge.svg)](https://github.com/scoff426-alt/literature-review-workspace/actions/workflows/validate.yml)
-[![Stars](https://img.shields.io/github/stars/scoff426-alt/literature-review-workspace?style=flat-square)](https://github.com/scoff426-alt/literature-review-workspace/stargazers)
+[![Validation](https://github.com/scoff426-alt/literature-review-workspace/actions/workflows/validate.yml/badge.svg)](https://github.com/scoff426-alt/literature-review-workspace/actions/workflows/validate.yml) [![Stars](https://img.shields.io/github/stars/scoff426-alt/literature-review-workspace?style=flat-square)](https://github.com/scoff426-alt/literature-review-workspace/stargazers)
 
-[中文](README.md) · [Quick start](#quick-start) · [Workflow rules](SKILL.md) · [Usage guide, Chinese](docs/usage.md)
+[中文](README.md) · [Download Skill](https://github.com/scoff426-alt/literature-review-workspace/archive/refs/heads/main.zip) · [Quick start](#quick-start) · [Workflow rules](SKILL.md) · [Usage guide, Chinese](docs/usage.md)
 
 </div>
 
